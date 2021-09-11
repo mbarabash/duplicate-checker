@@ -6,7 +6,7 @@ import pickle
 ans1 = input("have you run this program in two directories y or n\n")
 
 
-path = input("type in the path to the directory you want to run the program in\n")
+path = input("type in the path to the directory you want to run the program in. use forward slashes (C:/whatever) \n")
 
 files = os.listdir(path)
 
