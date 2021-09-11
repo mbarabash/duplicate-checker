@@ -2,12 +2,14 @@ import os
 import pickle
 
 
-files = os.listdir(path)
 
 ans1 = input("have you run this program in two directories y or n\n")
 
 
 path = input("type in the path to the directory you want to run the program in\n")
+
+files = os.listdir(path)
+
 
 if(ans1 == 'y'):
     with open(path + 'directory1.pickle', 'rb') as f1, open(path+'directory2.pickle', 'rb') as f2:
