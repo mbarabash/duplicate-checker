@@ -1,7 +1,6 @@
 import os
 import pickle
 
-path = 'C:/Users/mecha/Music/dooog/'
 
 files = os.listdir(path)
 
